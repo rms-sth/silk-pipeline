@@ -1,0 +1,6 @@
+httpx
+motor
+matplotlib
+flake8
+black
+python-dotenv
