@@ -50,7 +50,5 @@ class QualysNormalizer(Normalizer):
                     for port in host["openPort"]["list"]
                 ],
             }
-            # print(normalized_data)
-            # exit()
             normalized.append(normalized_data)
         return normalized

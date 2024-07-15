@@ -2,7 +2,6 @@ from typing import Any, Dict, List
 
 import motor.motor_asyncio
 
-
 class MongoDBClient:
     def __init__(self, uri: str, db_name: str):
         self.client = motor.motor_asyncio.AsyncIOMotorClient(uri)

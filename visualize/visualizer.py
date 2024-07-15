@@ -31,7 +31,6 @@ class Visualizer:
 
     def plot_os_distribution(self) -> None:
         os_counts = self._get_os_distribution()
-        print(os_counts)
         plt.figure(figsize=(10, 6))
         plt.bar([key[:30] for key in os_counts], os_counts.values())
         plt.xlabel("Operating System")

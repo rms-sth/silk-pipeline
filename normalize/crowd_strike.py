@@ -8,8 +8,6 @@ class CrowdStrikeNormalizer(Normalizer):
     def normalize(self, data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         normalized = []
         for host in data:
-            # print(host)
-            # exit()
             normalized.append(
                 {
                     "host_id": host["device_id"],
